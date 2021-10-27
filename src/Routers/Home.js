@@ -1,36 +1,27 @@
 import React from "react";
+import Navigation from "../Components/Navigation";
+import Testlist from "../Components/Testlist";
+import "../css/Home.css";
 
 function Home() {
   return (
-    <>
+    <div className="Home">
       {/* 네비게이션텝 */}
-      <div className="navigation">
-        <nav>
-          <li>Home</li>
-          <li>start test</li>
-          <li>profile</li>
-        </nav>
-      </div>
+      <Navigation />
       {/* 네비게이션텝 끝 */}
 
       {/* 메인화면 */}
       <div className="mainpage">
         {/* 오늘의 검사 */}
-        <div className="todaytest">
-          <div className="testtitle">오늘의 검사 타이틀</div>
-          <div className="testlistbox">오늘의 검사</div>
-        </div>
+        <Testlist day="Today" />
         {/* 오늘의 검사 끝 */}
 
         {/* 이전 검사 메뉴 */}
-        <div>
-          <div>이전 검사 타이틀</div>
-          <div>이전 검사</div>
-        </div>
+        <Testlist day="Past" />
         {/* 이전검사메뉴 끝 */}
       </div>
       {/* 메인화면끝 */}
-    </>
+    </div>
   );
 }
 

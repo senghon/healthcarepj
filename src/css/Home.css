@@ -1,31 +1,62 @@
 .Home {
   background-color: pink;
   display: flex;
+  width: 100vw;
 }
 .navigation {
-  background-color: blue;
-  width: 10vh;
+  background-color: #333333;
+  width: 5vw;
   height: 100vh;
 }
 
+/* 네비게이션바 */
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li {
+  /* border: solid;
+  border-color: white; */
+  margin: 50px auto 50px;
+  list-style: none;
+}
+
+/* 아이콘 */
+nav i {
+  color: white;
+}
+
+i:hover {
+  color: black;
+}
+
+/* 네비게이션바 끝 */
 .mainpage {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: gold;
-  width: 100vh;
+  background-color: white;
+  width: 100vw;
 }
-
-.testlist {
-  background-color: darkcyan;
+.testBox span {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: large;
+}
+.testList {
+  /* 박스 그림자 */
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: white;
+  border-radius: 3%;
   margin: 0px;
-  width: 350px;
-  height: 720px;
-}
-
-.testtitle {
-}
-.testlistbox {
+  width: 600px;
+  height: 700px;
 }
 
 .sample {
