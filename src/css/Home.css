@@ -1,0 +1,35 @@
+.Home {
+  background-color: pink;
+  display: flex;
+}
+.navigation {
+  background-color: blue;
+  width: 10vh;
+  height: 100vh;
+}
+
+.mainpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: gold;
+  width: 100vh;
+}
+
+.testlist {
+  background-color: darkcyan;
+  margin: 0px;
+  width: 350px;
+  height: 720px;
+}
+
+.testtitle {
+}
+.testlistbox {
+}
+
+.sample {
+  background-color: blanchedalmond;
+  width: 350px;
+  height: 50px;
+}
