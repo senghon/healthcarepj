@@ -1,0 +1,20 @@
+.test1form {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 3%;
+  display: flex;
+  width: 1319px;
+  height: 590px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.test1row {
+  display: flex;
+}
+
+.boxtype1 {
+  margin: 25px;
+  width: 232px;
+  height: 67px;
+}

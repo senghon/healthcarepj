@@ -1,47 +1,34 @@
 import React from "react";
+import Navigation from "../Components/Navigation";
+import Boxtype1 from "../Components/test1component/Boxtype1";
+import Race from "../Components/test1component/Race";
+import Sex from "../Components/test1component/Sex";
+import Specise from "../Components/test1component/Species";
+import Testoption from "../Components/test1component/Testoption";
+import "../css/Test1.css";
 
 function Test1() {
   return (
-    //boxtype1.
-    //
-    <form>
-      <div>
-        <h1>동물병원명</h1>
-        <input value="hospitalName"></input>
-      </div>
-      <div>
-        <h1>차트번호</h1>
-        <input value="chartNum"></input>
-      </div>
-      <div>
-        <h1>동물이름</h1>
-        <input value="animalName"></input>
-      </div>
-      <div>
-        <h1>수의사</h1>
-        <input value="veterinarian"></input>
-      </div>
-      <div>
-        <h1>동물종,나이</h1>
-        <input type="radio"></input>
-        <input type="radio"></input>
-        <input value="age"></input>
-      </div>
-      <div>
-        <h1>성별</h1>
-        <input type="radio" value="intactMale"></input>
-        <input type="radio" value="castMale"></input>
-        <input type="radio" value="castfemle"></input>
-        <input type="radio" value="castfemle"></input>
-      </div>
-      <div>
-        <h1></h1>
-      </div>
-      <div>
-        <h1></h1>
-        <input></input>
-      </div>
-    </form>
+    <div>
+      <form className="test1form">
+        <div className="test1row">
+          <Boxtype1 name="차트번호" value="hospitalname" />
+          <Boxtype1 name="동물이름" value="animalname" />
+          <Boxtype1 name="보호자" value="companion" />
+          <Boxtype1 name="수의사" value="vet" />
+        </div>
+        <div className="test1row">
+          <Specise />
+          <Race />
+          <Sex />
+          <Boxtype1 name="나이" value="age" />
+        </div>
+        <div className="test1row">
+          <Testoption />
+          <input type="submit" value="다음"></input>
+        </div>
+      </form>
+    </div>
   );
 }
 
