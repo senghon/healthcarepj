@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://senghon.github.io/healthcarepj",
+=======
+    "homepage": "https://senghon.github.io/",
+>>>>>>> e8c33986ec9890f6425cfe26e124ba0eb02e2c7b
   "name": "healthcarepj",
   "version": "0.1.0",
   "private": true,
