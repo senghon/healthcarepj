@@ -1,14 +1,18 @@
 import React from "react";
 
-function Sex() {
+function Sex({ name, onChange }) {
   return (
     <div className="boxtype1">
       <label>성별</label>
       <br></br>
-      <input name="intactmale-radio" type="radio" value="intactMale"></input>
-      <input name="" type="radio" value="castMale"></input>
-      <input name="" type="radio" value="castfemle"></input>
-      <input name="" type="radio" value="castfemle"></input>
+      <input name={name} type="radio" value="Female" onClick={onChange}></input>
+      Female
+      <input name={name} type="radio" value="NF" onClick={onChange}></input>
+      NF
+      <input name={name} type="radio" value="Male" onClick={onChange}></input>
+      Male
+      <input name={name} type="radio" value="NM" onClick={onChange}></input>
+      NM
     </div>
   );
 }
