@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e152f123.chunk.css",
-    "main.js": "/static/js/main.32f9901d.chunk.js",
-    "main.js.map": "/static/js/main.32f9901d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0ae5ce5d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0ae5ce5d.js.map",
-    "static/js/2.fc65206b.chunk.js": "/static/js/2.fc65206b.chunk.js",
-    "static/js/2.fc65206b.chunk.js.map": "/static/js/2.fc65206b.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.e152f123.chunk.css.map": "/static/css/main.e152f123.chunk.css.map",
-    "static/js/2.fc65206b.chunk.js.LICENSE.txt": "/static/js/2.fc65206b.chunk.js.LICENSE.txt"
+    "main.css": "/healthcarepj/static/css/main.17294c54.chunk.css",
+    "main.js": "/healthcarepj/static/js/main.480e7339.chunk.js",
+    "main.js.map": "/healthcarepj/static/js/main.480e7339.chunk.js.map",
+    "runtime-main.js": "/healthcarepj/static/js/runtime-main.8ea16536.js",
+    "runtime-main.js.map": "/healthcarepj/static/js/runtime-main.8ea16536.js.map",
+    "static/js/2.953fda5a.chunk.js": "/healthcarepj/static/js/2.953fda5a.chunk.js",
+    "static/js/2.953fda5a.chunk.js.map": "/healthcarepj/static/js/2.953fda5a.chunk.js.map",
+    "index.html": "/healthcarepj/index.html",
+    "static/css/main.17294c54.chunk.css.map": "/healthcarepj/static/css/main.17294c54.chunk.css.map",
+    "static/js/2.953fda5a.chunk.js.LICENSE.txt": "/healthcarepj/static/js/2.953fda5a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ae5ce5d.js",
-    "static/js/2.fc65206b.chunk.js",
-    "static/css/main.e152f123.chunk.css",
-    "static/js/main.32f9901d.chunk.js"
+    "static/js/runtime-main.8ea16536.js",
+    "static/js/2.953fda5a.chunk.js",
+    "static/css/main.17294c54.chunk.css",
+    "static/js/main.480e7339.chunk.js"
   ]
 }
