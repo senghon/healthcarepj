@@ -19,8 +19,9 @@ function Test1() {
     race: "",
     age: "",
     sex: "",
-    testOption: [12341234],
+    testOption: {},
   });
+  const [testoptioninputs, setTestoptioninputs] = useState({});
 
   const {
     chartNum,
@@ -42,20 +43,21 @@ function Test1() {
     });
   };
 
-  var testOptions = [];
   const checkingbox = (event) => {
     const { checked, name, value } = event.target;
+
     if (checked) {
-      testOptions.push(value);
-      setInputs({ ...inputs, [name]: testOptions });
+      setTestoptioninputs({ ...testoptioninputs, [value]: "" });
+    } else {
+      console.log(testoptioninputs);
+      console.log(testoptioninputs.value);
+      console.log(testoptioninputs[value]);
+      //   const { value, ...updateinput } = testoptioninputs;
+      //   setTestoptioninputs(updateinput);
     }
-    // else {
-    //   testOption.filter((element) => element !== value);
-    // }
-    console.log(inputs.testOption);
   };
 
-  console.log(inputs.testOption);
+  console.log(testoptioninputs);
 
   const getdb = async () => {
     const dbdata = await getDocs(collection(Firedb, "patientdata"));
