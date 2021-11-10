@@ -6,16 +6,19 @@ import Eentbox from "../Components/bodycheckcomponent/Eye";
 import Skin from "../Components/bodycheckcomponent/Skin";
 import Teeth from "../Components/bodycheckcomponent/Teeth";
 import Boxtype1 from "../Components/test1component/Boxtype1";
+import "../css/Bodycheck.css";
 
 function Bodycheck() {
   return (
     <div>
-      <h1>씨발</h1>
       <form className="bodycheck">
-        <Boxtype1 />
-        <Boxtype1 />
-        <Boxtype1 />
-        <div>
+        <h1>씨발</h1>
+        <div className="bodycondition">
+          <Boxtype1 name="BCS" />
+          <Boxtype1 name="Weight" />
+          <Boxtype1 name="BT" />
+        </div>
+        <div className="bodycondition">
           <Eye name="Eye" />
           <Ear name="Ear" />
           <Teeth name="Teeth" />

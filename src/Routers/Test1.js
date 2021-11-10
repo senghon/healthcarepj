@@ -74,6 +74,7 @@ function Test1() {
   return (
     <div>
       <form className="test1form" onSubmit={onSubmit}>
+        <h1>기본정보</h1>
         <div className="test1row">
           <Boxtype1 name="chartNum" onChange={onChange} value="hospitalname" />
           <Boxtype1 name="animalName" onChange={onChange} value="animalname" />

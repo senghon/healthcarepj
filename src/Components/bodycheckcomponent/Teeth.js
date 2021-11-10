@@ -1,17 +1,17 @@
 import React from "react";
-import Eentcheckbox from "./eentcheckbox";
+import Checkbox from "./Checkbox";
 
 function Teeth({ name }) {
   return (
     <div>
       <label>{name}</label>
-      <input name={name} type="checkbox" value="normal" checked></input>normal
-      <input name={name} type="checkbox" value="calculus"></input>calculus
-      <input name={name} type="checkbox" value="badbreath"></input>badbreath
-      <input name={name} type="checkbox" value="periodontaldisease"></input>
-      periodontaldisease
-      <input name={name} type="checkbox" value="stomatitis"></input>stomatitis
-      <input name={name} type="checkbox" value="milkteeth"></input>milkteeth
+      <br></br>
+      <Checkbox name="normal" value="normal" checked="ture" />
+      <Checkbox name="inflammation" value="inflammation" />
+      <Checkbox name="discharge" value="discharge" />
+      <Checkbox name="edema" value="edema" />
+      <Checkbox name="lichenification" value="lichenification" />
+      <Checkbox name="mass" value="mass" />
     </div>
   );
 }
