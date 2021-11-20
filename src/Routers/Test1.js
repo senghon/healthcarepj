@@ -8,6 +8,7 @@ import Testoption from "../Components/test1component/Testoption";
 import "../css/Test1.css";
 import { addDoc, setDoc, doc, getDocs, collection } from "@firebase/firestore";
 import Firedb from "../firebase";
+import { Link } from "react-router-dom";
 
 function Test1() {
   const [inputs, setInputs] = useState({
@@ -89,7 +90,16 @@ function Test1() {
         </div>
         <div className="test1row">
           <Testoption name="testOption" checkingbox={checkingbox} />
-          <input type="submit" value="다음"></input>
+          <Link
+            to={{
+              pathname: "/bodycheck",
+              state: {
+                chartNum: inputs.chartNum,
+              },
+            }}
+          >
+            <input type="submit" value="다음"></input>
+          </Link>
         </div>
       </form>
     </div>

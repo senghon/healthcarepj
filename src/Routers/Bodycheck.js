@@ -7,8 +7,10 @@ import Skin from "../Components/bodycheckcomponent/Skin";
 import Teeth from "../Components/bodycheckcomponent/Teeth";
 import Boxtype1 from "../Components/test1component/Boxtype1";
 import "../css/Bodycheck.css";
+import "react-router-dom";
 
 function Bodycheck() {
+  console.log(this.props);
   return (
     <div>
       <form className="bodycheck">

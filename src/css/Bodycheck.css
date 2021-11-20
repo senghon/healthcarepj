@@ -8,7 +8,7 @@
 
 .bodycondition {
   width: 100%;
-  background-color: red;
+  background-color: darkcyan;
   display: flex;
   justify-content: space-between;
 }
